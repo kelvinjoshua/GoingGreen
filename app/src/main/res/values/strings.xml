@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Greener</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="login">LOGIN</string>
+    <string name="undraw">undraw</string>
 </resources>
