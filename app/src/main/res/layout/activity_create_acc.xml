@@ -10,12 +10,13 @@
     <ImageView
         android:id="@+id/undrawTop"
         android:layout_width="520dp"
-        android:layout_height="80dp"
+        android:layout_height="90dp"
         android:contentDescription="@string/undraw"
         android:scaleType="fitXY"
         android:src="@drawable/ic_wave__6_" />
 
     <TextView
+        android:layout_marginTop="-20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Create Account"
@@ -40,7 +41,7 @@
         android:id="@+id/card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="35dp"
+        android:layout_margin="30dp"
         android:theme="@style/Theme.MaterialComponents.Light"
         android:layout_below="@+id/undrawImg"
         >
@@ -70,7 +71,7 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="15dp"
                     android:drawableStart="@drawable/baseline_email_24"
                     android:hint="E-mail"
                     android:id="@+id/email"
@@ -83,12 +84,13 @@
                     android:layout_height="wrap_content"
                     android:inputType="textPassword"
                     android:drawableStart="@drawable/baseline_lock_24"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="20dp"
                     android:hint="Password"
                     android:id="@+id/password"
                     android:textAlignment="center"
                     tools:ignore="HardcodedText"
                     android:autofillHints="" />
+                <!--
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -97,11 +99,12 @@
                     android:id="@+id/confirm"
                     android:textAlignment="center"
                     tools:ignore="Autofill,HardcodedText" />
+                    -->
                 <Button
                     android:layout_width="150dp"
                     android:layout_height="50dp"
                     android:layout_gravity="center"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="20dp"
                     android:backgroundTint="@color/green"
                     android:text="SIGN UP"
                     android:id="@+id/signUp"
