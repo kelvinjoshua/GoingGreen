@@ -4,13 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Splash">
+    tools:context=".Splash"
+    android:background="@color/green">
 
-    <ImageView
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="60dp"
-        android:scaleType="centerCrop"/>
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="200dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Zero Waste"
+        android:textAlignment="center"
+        android:id="@+id/slogan"
+        android:textSize="24sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Build a better tomorrow today"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:textAlignment="center"
+        android:id="@+id/message"
+        android:layout_marginBottom="160dp"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        />
+
+
 
 </RelativeLayout>
