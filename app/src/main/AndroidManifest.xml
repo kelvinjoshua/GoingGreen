@@ -9,19 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light">
-        <activity android:name=".CreateAcc"></activity>
-        <activity
-            android:name=".SignIn"
-            android:theme="@style/lightNoBar">
+        <activity android:name=".CreateAcc"  android:theme="@style/lightNoBar"/>
+        <activity android:name=".SignIn" android:theme="@style/lightNoBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <activity android:name=".Splash">
-
-        </activity>
+        <activity android:name=".Splash" android:theme="@style/lightNoBar"/>
     </application>
 
 </manifest>
