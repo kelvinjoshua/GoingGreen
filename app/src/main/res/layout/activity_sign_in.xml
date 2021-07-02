@@ -68,7 +68,6 @@
                     android:hint="@string/e_mail"
                     android:textAlignment="center"
                     android:inputType="textEmailAddress"
-                    android:autofillHints=""
                     tools:ignore="TextFields" />
 
                 <EditText
@@ -80,13 +79,13 @@
                     android:hint="@string/password"
                     android:inputType="textPassword"
                     android:textAlignment="center"
-                    android:autofillHints="" />
+                   />
 
                 <Button
                     android:layout_width="150dp"
                     android:layout_height="50dp"
                     android:layout_gravity="center"
-                    android:layout_marginTop="50dp"
+                    android:layout_marginTop="35dp"
                     android:backgroundTint="@color/green"
                     android:text="@string/login"
                     android:id="@+id/Login"
@@ -111,3 +110,5 @@
         android:textSize="18sp" />
 
 </RelativeLayout>
+
+<!--Disable android auto fill hints to resolve render problem-->

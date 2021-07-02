@@ -123,7 +123,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/card"
         android:layout_marginTop="-20dp"
-        android:text="Already a User? LOGIN"
+        android:text="Already a User? Login"
         android:id="@+id/alreadyText"
         android:textAlignment="center"
         android:textColor="@color/beige"
